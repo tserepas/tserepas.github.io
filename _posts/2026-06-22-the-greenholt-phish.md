@@ -22,7 +22,7 @@ The scenario: a suspicious email has been flagged and escalated to the SOC for i
 
 The challenge file `challenge.eml` is opened in **Mozilla Thunderbird**. At first glance, the email presents itself as a routine financial notification, referencing an interbank SWIFT transfer. The body includes transaction details and claims that a payment receipt is attached.
 
-![Full email view in Thunderbird](/assets/img/posts/greenholt-phish/01-thunderbird-email.png)
+![Full email view in Thunderbird](/assets/img/posts/greenholt-phish/Screenshot_1.png)
 
 Nothing in the visible email body immediately reveals malicious intent — which is precisely the point. The analysis begins at the header level.
 
